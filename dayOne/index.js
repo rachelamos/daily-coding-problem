@@ -1,6 +1,9 @@
 /* First Coding Challenge:
 Given a list of numbers and a number 'k', return whether any two numbers from the list add up to 'k'.*/
 
+let numArray = [10, 15, 3, 7];
+let k = 17;
+
 function doTheyAddUp (a, b, k) {
     if (a + b === k) {
         return a + " + " + b + " = " + k;
