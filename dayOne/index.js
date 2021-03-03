@@ -2,13 +2,13 @@
 Given a list of numbers and a number 'k', return whether any two numbers from the list add up to 'k'.*/
 
 let numArray = [10, 15, 3, 7];
-let k = 17;
+let k;
 
-function doTheyAddUp (a, b, k) {
-    if (a + b === k) {
-        return a + " + " + b + " = " + k;
+function doTheyAddUp (numArray, k) {
+    if (numArray[i] + numArray[i++] === k) {
+        return true;
     } else {
-        return a + " + " + b + " does not equal " + k;
+        return false;
     }
 }
 
